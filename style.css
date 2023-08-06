@@ -17,6 +17,12 @@ body,html {
     overflow: hidden;
 }
 
+.c-scrollbar_thumb {
+    background-color: rgb(255, 255, 0) !important;
+    width: 9px !important;
+}
+
+
 /* pages */
 #page1 {
     position: relative;
@@ -1074,28 +1080,37 @@ span {
 #page14 {
     position: relative;
     width: 100vw;
-    height: 30vh;
+    height: 100vh;
     background-color: #000;
 }
 
-#text14 {
+#demo {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80vh;
-    margin-top: 4vh;
+    padding-top: 4vh;
+    background-color: #fff;
+    color: #000;
 }
 
-#text14 h1 {
+#demo h4 {
+    color: #000;
+    font-size: 25px;
+}
+
+#demo h1 {
     font-size: 80px;
+    color: #000;
 }
 
-#text14 h3 {
+#demo h3 {
     width: 60%;
     margin-top: 10vh;
     text-align: center;
     font-size: 26px;
+    color: #000;
     /* background-color: orange; */
 }
 
@@ -1288,4 +1303,8 @@ span {
     /* scale: 1.5; */
     font-weight: 300;
     border: none;
+}
+
+button {
+    cursor: pointer;
 }

@@ -39,7 +39,7 @@ gsap.to("#page1", {
     trigger:`#page1`,
     start:`2% top`,
     end:`bottom top`,
-    markers:true,
+    // markers:true,
     scroller:`#main`
   },
   onStart: () => {
